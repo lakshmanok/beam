@@ -55,7 +55,7 @@ def run(argv=None):
   parser = argparse.ArgumentParser()
   parser.add_argument(
       '--input_topic', required=True,
-      help='Input PubSub topic of the form "/topics/<PROJECT>/<TOPIC>".')
+      help='Input PubSub topic of the form "projects/<project>/topics/<topic>".')
   parser.add_argument(
       '--output_table', required=True,
       help=
